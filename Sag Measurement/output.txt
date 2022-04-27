@@ -1,0 +1,323 @@
+<<====================================================================================================>>
+Enter number of points: 61
+<<====================================================================================================>>
+Enter the X-Position: 
+1
+2 
+3 
+4 
+5 
+6 
+7 
+8 
+9 
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+<<====================================================================================================>>
+Enter the Pixel-Position: 
+230
+231
+233
+235
+237
+238
+241
+248
+255
+260
+265
+269
+270
+273
+275
+280
+284
+286
+289
+290
+295
+294
+285
+282
+278
+271
+264
+261
+259
+256
+251
+249
+247
+245
+242
+238
+235
+232
+230
+229
+225
+220
+216
+215
+211
+210
+208
+204
+203
+201
+197
+195
+192
+189
+185
+182
+179
+175
+172
+168
+166
+<<====================================================================================================>>
+Enter the Scaling-Factor:
+0
+0.05
+0.15
+0.25
+0.35
+0.40
+0.55
+0.90
+1.25
+1.50
+1.75
+1.95
+2
+2.15
+2.25
+2.50
+2.70
+2.80
+2.95
+3
+3.25
+3.20
+2.75
+2.60
+2.40
+2.05
+1.70
+1.55
+1.45
+1.30
+1.05
+0.95
+0.85
+0.75
+0.60
+0.40
+0.25
+0.10
+0
+-0.05
+-0.25
+-0.50
+-0.70
+-0.75
+-0.95
+-1
+-1.10
+-1.30
+-1.35
+-1.45
+-1.65
+-1.75
+-1.90
+-2.05
+-2.25
+-2.40
+-2.55
+-2.75
+-2.90
+-3.10
+-3.20
+<<====================================================================================================>>
+Enter the Height Integration Value:
+0
+-0.05
+-0.20
+-0.45
+-0.79
+-1.18
+-1.70
+-2.49
+-3.43
+-4.43
+-5.42
+-6.34
+-7.25
+-8.09
+-8.87
+-9.47
+-9.89
+-10.23
+-10.42
+-10.56
+-10.45
+-10.39
+-10.78
+-11.29
+-11.97
+-12.85
+-13.85
+-14.85
+-15.84
+-16.80
+-17.67
+-18.48
+-19.23
+-19.92
+-20.48
+-20.87
+-21.12
+-21.22
+-21.22
+-21.17
+-20.92
+-20.44
+-19.80
+-19.11
+-18.30
+-17.46
+-16.57
+-15.61
+-14.63
+-13.64
+-12.64
+-11.66
+-10.71
+-9.82
+-9.04
+-8.37
+-7.81
+-7.43
+-7.19
+-7.15
+-7.21
+<<====================================================================================================>>
+<<=========================================--OUTPUT--SCREEN--=========================================>>
+<<====================================================================================================>>
+The sag measurement is:
+Sag Measurement at point 1 with pixel position 230 is 0 mm.
+Sag Measurement at point 2 with pixel position 231 is 1 mm.
+Sag Measurement at point 3 with pixel position 233 is 2.25 mm.
+Sag Measurement at point 4 with pixel position 235 is 2.77778 mm.
+Sag Measurement at point 5 with pixel position 237 is 3.10127 mm.
+Sag Measurement at point 6 with pixel position 238 is 2.71186 mm.
+Sag Measurement at point 7 with pixel position 241 is 3.55882 mm.
+Sag Measurement at point 8 with pixel position 248 is 6.50602 mm.
+Sag Measurement at point 9 with pixel position 255 is 9.11079 mm.
+Sag Measurement at point 10 with pixel position 260 is 10.158 mm.
+Sag Measurement at point 11 with pixel position 265 is 11.3007 mm.
+Sag Measurement at point 12 with pixel position 269 is 11.9953 mm.
+Sag Measurement at point 13 with pixel position 270 is 11.0345 mm.
+Sag Measurement at point 14 with pixel position 273 is 11.4277 mm.
+Sag Measurement at point 15 with pixel position 275 is 11.4149 mm.
+Sag Measurement at point 16 with pixel position 280 is 13.1996 mm.
+Sag Measurement at point 17 with pixel position 284 is 14.7422 mm.
+Sag Measurement at point 18 with pixel position 286 is 15.3275 mm.
+Sag Measurement at point 19 with pixel position 289 is 16.7035 mm.
+Sag Measurement at point 20 with pixel position 290 is 17.0455 mm.
+Sag Measurement at point 21 with pixel position 295 is 20.2153 mm.
+Sag Measurement at point 22 with pixel position 294 is 19.7113 mm.
+Sag Measurement at point 23 with pixel position 285 is 14.0306 mm.
+Sag Measurement at point 24 with pixel position 282 is 11.9752 mm.
+Sag Measurement at point 25 with pixel position 278 is 9.62406 mm.
+Sag Measurement at point 26 with pixel position 271 is 6.54086 mm.
+Sag Measurement at point 27 with pixel position 264 is 4.17329 mm.
+Sag Measurement at point 28 with pixel position 261 is 3.23569 mm.
+Sag Measurement at point 29 with pixel position 259 is 2.65467 mm.
+Sag Measurement at point 30 with pixel position 256 is 2.0119 mm.
+Sag Measurement at point 31 with pixel position 251 is 1.24788 mm.
+Sag Measurement at point 32 with pixel position 249 is 0.976732 mm.
+Sag Measurement at point 33 with pixel position 247 is 0.75143 mm.
+Sag Measurement at point 34 with pixel position 245 is 0.564759 mm.
+Sag Measurement at point 35 with pixel position 242 is 0.351562 mm.
+Sag Measurement at point 36 with pixel position 238 is 0.15333 mm.
+Sag Measurement at point 37 with pixel position 235 is 0.0591856 mm.
+Sag Measurement at point 38 with pixel position 232 is 0.00942507 mm.
+Sag Measurement at point 39 with pixel position 230 is 0 mm.
+Sag Measurement at point 40 with pixel position 229 is 0.00236183 mm in negative direction.
+Sag Measurement at point 41 with pixel position 225 is 0.0597514 mm in negative direction.
+Sag Measurement at point 42 with pixel position 220 is 0.244618 mm in negative direction.
+Sag Measurement at point 43 with pixel position 216 is 0.494949 mm in negative direction.
+Sag Measurement at point 44 with pixel position 215 is 0.588697 mm in negative direction.
+Sag Measurement at point 45 with pixel position 211 is 0.986339 mm in negative direction.
+Sag Measurement at point 46 with pixel position 210 is 1.14548 mm in negative direction.
+Sag Measurement at point 47 with pixel position 208 is 1.46047 mm in negative direction.
+Sag Measurement at point 48 with pixel position 204 is 2.16528 mm in negative direction.
+Sag Measurement at point 49 with pixel position 203 is 2.49146 mm in negative direction.
+Sag Measurement at point 50 with pixel position 201 is 3.08284 mm in negative direction.
+Sag Measurement at point 51 with pixel position 197 is 4.30775 mm in negative direction.
+Sag Measurement at point 52 with pixel position 195 is 5.253 mm in negative direction.
+Sag Measurement at point 53 with pixel position 192 is 6.74136 mm in negative direction.
+Sag Measurement at point 54 with pixel position 189 is 8.55906 mm in negative direction.
+Sag Measurement at point 55 with pixel position 185 is 11.2002 mm in negative direction.
+Sag Measurement at point 56 with pixel position 182 is 13.7634 mm in negative direction.
+Sag Measurement at point 57 with pixel position 179 is 16.6517 mm in negative direction.
+Sag Measurement at point 58 with pixel position 175 is 20.3567 mm in negative direction.
+Sag Measurement at point 59 with pixel position 172 is 23.3936 mm in negative direction.
+Sag Measurement at point 60 with pixel position 168 is 26.8811 mm in negative direction.
+Sag Measurement at point 61 with pixel position 166 is 28.405 mm in negative direction.
+
+<<====================================================================================================>>
+<<=======================================--OUTPUT--SCREEN--END--======================================>>
+<<====================================================================================================>>
