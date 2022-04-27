@@ -2,75 +2,78 @@
 using namespace std;
 
 int main(){
-    int var = 0;
-    vector<int>xposition(61, 0);
+
+    int n;
+    cout << "Enter number of points:" << endl;
+    cin >> n;
+    
+    double val = 0;
+    vector<double>xposition(n, 0);
+
     cout << "<<====================================================================================================>>" << endl;
     cout << "Enter the X-Position: ";
-    for(int i = 0; i < 61; i++){
-        cin >> var;
-        xposition[i] = var;
+    for(int i = 0; i < n; i++){
+        cin >> val;
+        xposition[i] = val;
     }
 
     cout << "<<====================================================================================================>>" << endl;
     cout << "Enter the Pixel-Position: ";
-    int pixpos = 0;
-    vector<int>pixposition(61, 0);
-    for(int i = 0; i < 61; i++){
-        cin >> pixpos;
-        pixposition[i] = pixpos;
+    vector<double>pixposition(n, 0);
+    for(int i = 0; i < n; i++){
+        cin >> val;
+        pixposition[i] = val;
     }
 
-    vector<double>scalingFactor(61, 0);
-    double val = 0;
+    vector<double>normalSub(n, 0);
+    for(int i = 0; i < n; i++){
+        //cin >> val;
+        normalSub[i] = pixposition[i]-230;
+    }
+
+    vector<double>scalingFactor(n, 0);
     cout << "<<====================================================================================================>>" << endl;
     cout << "Enter the Scaling-Factor: ";
     cout << endl;
-    for(int i = 0; i < 61; i++){
+    for(int i = 0; i < n; i++){
         cin >> val;
-        scalingFactor[i] = abs(val);
+        scalingFactor[i] = val;
     }
-    // cout << "The scaling factor is: ";
-    // for(int i = 0; i < 61; i++){
-    //     cout << scalingFactor[i] << " ";
-    // }
-    // cout << endl;
-    vector<double>heightIntegration(61, 0);
-    double pos = 0;
+
+    vector<double>heightIntegration(n, 0);
     cout << "<<====================================================================================================>>" << endl;
     cout << "Enter the Height Integration Value: ";
     cout << endl;
-    for(int i = 0; i < 61; i++){
-        cin >> pos;
-        heightIntegration[i] = abs(pos);
+    for(int i = 0; i < n; i++){
+        cin >> val;
+        heightIntegration[i] = val;
     }
     
-    // for(int i = 1; i < 61; i++){
-    //     heightIntegration[i] = heightIntegration[i] - heightIntegration[i-1];
-    // }
-
-    // cout << "<<====================================================================================================>>" << endl;
-    // cout << "The position is: ";
-    // for(int i = 0; i < 61; i++){
-    //     cout << heightIntegration[i] << " ";
-    // }
-    // cout << endl;
-    vector<double>sag(61, 0);
-    for(int i = 0 ; i < 61; i++){
-        if(heightIntegration[i] == 0 || scalingFactor[i] == 0){
+    vector<double>sag(n, 0);
+    for(int i = 0 ; i < n; i++){
+        if(heightIntegration[i] == 0){
             sag[i] = 0;
         }
         else{
-            sag[i] = heightIntegration[i]*cosh(scalingFactor[i]/heightIntegration[i]);
+            sag[i] = abs(normalSub[i])*abs(scalingFactor[i])/abs(heightIntegration[i]);
+                if(scalingFactor[i] < 0){
+                sag[i] = -sag[i];
+            }
         }
-        //cout << sag[i] << " ";
     }
-    //cout << endl;
+
     cout << "<<====================================================================================================>>" << endl;
     cout << "<<=========================================--OUTPUT--SCREEN--=========================================>>" << endl;
     cout << "<<====================================================================================================>>" << endl;
     cout << "The sag measurement is: " << endl;
-    for(int i = 0; i < 61; i++){
-        cout << "Sag Measurement at point " << xposition[i] << " with pixel position "<< pixposition[i] << " is " << sag[i] << " degrees." << endl;
+    for(int i = 0; i < n; i++){
+        if(sag[i] >= 0){
+            cout << "Sag Measurement at point " << xposition[i] << " with pixel position "<< pixposition[i] << " is " << sag[i] << " mm." << endl;
+        }
+        else{
+            sag[i] *= -1;
+            cout << "Sag Measurement at point " << xposition[i] << " with pixel position "<< pixposition[i] << " is " << sag[i] << " mm in negative direction." << endl;
+        }
     }
     cout << endl;
     cout << "<<====================================================================================================>>" << endl;
